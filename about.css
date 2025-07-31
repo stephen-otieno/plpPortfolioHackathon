@@ -109,7 +109,7 @@ body {
 }
 
 .skills > div {
-  flex: 0 0 50%; /* Two per row with some spacing */
+  flex: 0 0 40%; /* Two per row with some spacing */
   flex-direction: column;
   background: #121111;
   padding: 15px;
@@ -121,6 +121,7 @@ body {
   font-size: large;
 
 }
+
 
 .footer {
     display: flex;
