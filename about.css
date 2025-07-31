@@ -1,0 +1,125 @@
+html {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    color: #ffffff;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+      background: #111111 ;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      height: 90px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 0 !important;
+      padding: 0 !important;
+
+
+}
+
+.navmenu ul  {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    padding: 0;
+    margin-right: 1cm;
+    font-size: large;
+    
+}
+
+.navmenu li, a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(244, 149, 7);
+
+}
+
+
+.navmenu li :hover {
+    color: rgb(244, 149, 7);
+}
+
+.about-intro {
+    display: flex;
+    gap: 0cm;
+    margin: 100px;
+}
+
+.img1 {
+    margin-top: 50px;
+}
+
+
+.about-img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+.intro {
+    margin-top: 20px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+}
+
+
+
+
+.edu-bg {
+     margin-top: 20px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 100px;
+}
+
+.skills {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px;
+     
+
+}
+
+.skills > div {
+  flex: 0 0 40%; /* Two per row with some spacing */
+  flex-direction: column;
+  background: #757373;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: large;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #001f3f ;
+
+}
