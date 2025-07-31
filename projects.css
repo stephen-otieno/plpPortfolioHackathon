@@ -56,6 +56,9 @@ body {
     color: rgb(244, 149, 7);
 }
 
+
+
+
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -63,6 +66,19 @@ body {
     padding: 20px;
     margin: 90px;
 
+}
+
+@media (max-width: 600px) {
+    .projects {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 20px;
+    margin: 90px;
+
+}
+ 
 }
 
 .projects > div {
@@ -87,4 +103,10 @@ body {
     margin-bottom: 0;
     background-color: #001f3f ;
 
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
 }

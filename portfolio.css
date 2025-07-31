@@ -35,7 +35,7 @@ body {
     justify-content: right;
     gap: 30px;
     padding: 0;
-    margin-right: 1cm;
+    margin-right: 37px;
     font-size: large;
     
 }
@@ -55,8 +55,9 @@ body {
 }
 
 .hero {
-    margin: 2.5cm;
+    margin: 94px;
     display: flex;
+    flex-wrap: wrap;
     gap: 70px;
     padding: 20px;
     font-size: large;
@@ -84,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2cm;
+    margin: 90px;
 }
 
 
@@ -93,7 +94,7 @@ body {
 .btn1 {
     background-color:  #008080 ;
     color: white;
-    height: 1cm;
+    height: 37px;
     font-size: large;
     border: none;
     border-radius: 8px;
@@ -110,3 +111,8 @@ body {
     background-color: #001f3f ;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}

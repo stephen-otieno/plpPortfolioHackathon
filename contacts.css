@@ -38,7 +38,7 @@ body {
     justify-content: right;
     gap: 30px;
     padding: 0;
-    margin-right: 1cm;
+    margin-right: 35px;
     font-size: large;
     
 }
@@ -67,6 +67,8 @@ body {
    
 }
 
+
+
 .contacts > div {
   flex: 0 0 40%; /* Two per row with some spacing */
   flex-direction: column;
@@ -78,6 +80,19 @@ body {
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .contacts {
+    margin: 30px; 
+    gap: 20px;
+  }
+
+  .contacts > div {
+    flex: 90%
+  }
+}
+
+
 
 
 .contacts p {
@@ -144,3 +159,8 @@ body {
 
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
