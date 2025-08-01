@@ -159,6 +159,24 @@ body {
 
 }
 
+.social-links {
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+ 
+
+
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 14px;
